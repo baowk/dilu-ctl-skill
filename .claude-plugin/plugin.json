@@ -1,0 +1,19 @@
+{
+  "name": "dilu-ctl",
+  "description": "Skills for managing Dilu web framework projects — create, generate, run, and test Go microservices powered by Gin + GORM.",
+  "version": "1.0.0",
+  "author": {
+    "name": "baowk"
+  },
+  "repository": "https://github.com/baowk/dilu-ctl-skill",
+  "license": "MIT",
+  "keywords": [
+    "dilu",
+    "go",
+    "gin",
+    "gorm",
+    "code-generator",
+    "scaffold",
+    "microservice"
+  ]
+}
