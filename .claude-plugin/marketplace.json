@@ -1,0 +1,14 @@
+{
+  "name": "dilu-tools",
+  "description": "Dilu web framework development tools for Claude Code",
+  "plugins": [
+    {
+      "name": "dilu-ctl",
+      "description": "Create, generate, run, and test Dilu (Gin+GORM) projects",
+      "source": {
+        "source": "github",
+        "repo": "baowk/dilu-ctl-skill"
+      }
+    }
+  ]
+}

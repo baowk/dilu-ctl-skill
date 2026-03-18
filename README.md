@@ -6,9 +6,35 @@ Provides 4 skills covering the full development lifecycle: **create → generate
 
 ## Installation
 
+In Claude Code, run:
+
+```
+/plugin marketplace add baowk/dilu-ctl-skill
+/plugin install dilu-ctl@dilu-tools
+```
+
+Or for local development:
+
 ```bash
-# Local development
 claude --plugin-dir ./dilu-ctl-skill
+```
+
+To auto-enable in a project, add to `.claude/settings.json`:
+
+```json
+{
+  "extraKnownMarketplaces": {
+    "dilu-tools": {
+      "source": {
+        "source": "github",
+        "repo": "baowk/dilu-ctl-skill"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "dilu-ctl@dilu-tools": true
+  }
+}
 ```
 
 ## Prerequisites
