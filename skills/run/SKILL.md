@@ -1,8 +1,8 @@
 ---
 name: run
 description: 编译并启动 Dilu 应用服务。当用户需要运行 Dilu 项目进行本地开发或测试时使用。
-argument-hint: [-c <config-file>] [--build-only]
-allowed-tools: Bash, Read, Glob, Grep
+argument-hint: "[-c <config-file>] [--build-only]"
+metadata: {"openclaw":{"requires":{"bins":["go"]},"emoji":"🚀","os":["darwin","linux"]}}
 ---
 
 # 运行 Dilu 应用

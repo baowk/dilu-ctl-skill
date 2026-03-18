@@ -1,8 +1,8 @@
 ---
 name: test
 description: 对运行中的 Dilu 服务执行 E2E 接口测试（CRUD 全流程）。当用户需要验证生成的 API 是否正常工作时使用。
-argument-hint: [<base-url>] [--resource <path>] [--port <port>]
-allowed-tools: Bash, Read, Glob, Grep
+argument-hint: "[<base-url>] [--resource <path>] [--port <port>]"
+metadata: {"openclaw":{"requires":{"bins":["curl"]},"emoji":"🧪","os":["darwin","linux"]}}
 ---
 
 # E2E 接口测试

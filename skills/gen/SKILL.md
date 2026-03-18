@@ -1,8 +1,8 @@
 ---
 name: gen
 description: 从数据库表结构生成 Dilu 模块代码（Model/Query/DTO/Service/API/Router）。当用户需要为数据库表生成 CRUD 代码时使用。
-argument-hint: -t <table> -d <dsn> [--driver <mysql|postgres|sqlite>] [--prefix <api-prefix>]
-allowed-tools: Bash, Read, Edit, Glob, Grep
+argument-hint: "-t <table> -d <dsn> [--driver <mysql|postgres|sqlite>] [--prefix <api-prefix>]"
+metadata: {"openclaw":{"requires":{"bins":["go","dilu-ctl"]},"install":[{"id":"dilu-ctl","kind":"go","formula":"github.com/baowk/dilu-ctl@latest","bins":["dilu-ctl"],"label":"Install dilu-ctl via go install"}],"emoji":"⚙️","os":["darwin","linux"]}}
 ---
 
 # 生成 Dilu 模块代码

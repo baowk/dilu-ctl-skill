@@ -1,8 +1,8 @@
 ---
 name: create
 description: 创建新的 Dilu 项目脚手架。当用户需要初始化一个基于 Gin+GORM 的 Go Web 项目时使用。
-argument-hint: <project-name> [--https] [--all] [-o <output-dir>]
-allowed-tools: Bash, Read, Edit, Glob, Grep
+argument-hint: "<project-name> [--https] [--all] [-o <output-dir>]"
+metadata: {"openclaw":{"requires":{"bins":["go","git"]},"install":[{"id":"dilu-ctl","kind":"go","formula":"github.com/baowk/dilu-ctl@latest","bins":["dilu-ctl"],"label":"Install dilu-ctl via go install"}],"emoji":"🏗️","os":["darwin","linux"]}}
 ---
 
 # 创建 Dilu 项目
